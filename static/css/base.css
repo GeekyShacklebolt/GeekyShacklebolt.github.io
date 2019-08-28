@@ -1,23 +1,38 @@
 /* Sticky Footer Classes */
 /* CSS for tags */
+
 html,
 body {
   height: 100%;
 }
 
 body {
-  background-image: url(../img/background.jpg);
-  background-size: repeat;
-  -webkit-background-size: repeat;
-  -moz-background-size: repeat;
-  -o-background-size: repeat;
-  background-attachment: fixed;
-  /*background-position: 0 3.5em;*/
-  /*background-color: linear-gradient(to right, #0062E6, #33AEFF);*/
-   /*rgba(200,100,0,.5)*/
-  /*background-color: rgba(200,100,0,0.4);*/
-  /*background-blend-mode: multiply;*/
+  background: url(../img/grid.png), repeat;
 }
+
+small a {
+    color: aqua;
+}
+
+small a:hover {
+    color: #acf;
+}
+
+footer {
+    margin-top: 1em;
+    color: white;
+    background-color: #112;
+}
+
+hr {
+    border-top: 1px solid;
+}
+
+/* User defined tags */
+aqua {
+    color: aqua;
+}
+
 
  /* CSS for IDs */
 #page-content {
@@ -28,17 +43,11 @@ body {
   flex-shrink: none;
 }
 
+
 /* CSS for classes */
 
-.social_box {
-    margin: 1em;
-    display: inline-block;
-    height: 3.7em;
-    width: 3.7em;
-    line-height: 3.7em;
-}
-
 .social_label {
+    margin: 1em;
     height: 3.7em;
     width: 3.7em;
     line-height: 3.7em;
@@ -51,15 +60,24 @@ body {
 }
 
 .social_box a {
-    text-decoration: none;
     color: black;
 }
 
 .social_label:hover {
     background-color: black;
     color: white;
-    transition: 0.2s ease;
+    transition: 0.3s ease;
 }
 
+.dropdown-menu {
+    background-color: #112;
+}
 
+.dropdown-menu a {
+    color: white;
+}
 
+.dropdown-menu a:hover {
+    color: aqua;
+    background-color: #112;
+}
