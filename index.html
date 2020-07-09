@@ -1,111 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="UTF-8">
-    <title>Shiva Saxena | GeekyShacklebolt</title>
-    <link rel="stylesheet" href="static/css/base.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="static/css/base.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+        <title>Shiva Saxena | GeekyShacklebolt</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="./static/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="./static/css/clean-blog.min.css" rel="stylesheet">
+        <link href="./static/css/my-custom.min.css" rel="stylesheet">
+
+        <!-- Code highlight color scheme -->
+        <link href="./static/css/code_blocks/darkly.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- <link rel="icon" href="./favicon.ico"> -->
 </head>
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://geekyshacklebolt.github.io/">GeekyShacklebolt</a>
+            </div>
 
-<body class="d-flex flex-column">
-
-    <div id="page-content">
-
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <a class="navbar-brand" href="#"><aqua>Geeky</aqua>Shacklebolt</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
-                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Blogs
-                    </a>
-                  <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
-                    <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="https://geekyshacklebolt.wordpress.com">WordPress</a>
-                        <a class="dropdown-item" href="#">Geeky Weekly</a>
-                        <a class="dropdown-item" href="http://thegeekyway.com">The Geeky Way</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="./index.html" target="_self">Home</a></li>
+                    <li><a href="./about.html" target="_self">About</a></li>
+                    <li><a href="./work.html" target="_self">Work</a></li>
+                    <li><a href="https://geekyshacklebolt.github.io/blog/" target="_self">Blog</a></li>
+                    <li><a href="./contact.html" target="_self">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-
-        <div class="container text-center">
-
-            <div class="row justify-content-center">
-                <div class="col-sm-12">
-                <h1 class="font-weight-dark mt-4 text-black">Hi! I'm Shiva Saxena</h1>
-                <p class="lead text-black-50">Freelance Web Developer | Blogger | Open Source Contributor</p>
-                <p><hr></p>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-sm-12">
-                    <span class="social_box">
-                        <a class="social_label" href="https://github.com/geekyshacklebolt">
-                            <span class="fa fa-github fa-2x"></span>
-                        </a>
-                    </span>
-                    <span class="social_box">
-                        <a class="social_label" href="https://linkedin.com/in/shiva-saxena">
-                            <span class="fa fa-linkedin fa-2x"></span>
-                        </a>
-                    </span>
-                    <span class="social_box">
-                        <a class="social_label" href="https://twitter.com/ershivasaxena">
-                            <span class="fa fa-twitter fa-2x"></span>
-                        </a>
-                    </span>
-                </div>
-            </div>
-
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+    </nav>
 
+    <!-- Header -->
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('./static/img/home-bg.jpg')">
+        <div class="container">
+            <a id="home"></a>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="page-heading">
+                        <h1>Shiva Saxena</h1>
+                        <hr class="small"></hr>
+                        <span class="subheading">An Enhancement Bug and CS Geek!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h1>Introduction</h1>
+                <!-- Profile Pic -->
+                <div class="row">
+                    <div class="col-lg-3 text-center">
+                        <p>
+                            <img class="profile_pic img-responsive" src="./static/img/profile-pic.jpg" alt="Profile Picture">
+                        </p>
+                    </div>
+                    <div class="col-lg-9">
+                        <p>
+                            <em>
+                                Hi! I'm Shiva Saxena. I am a software developer, and my passion lies in back-end web development. I enjoy programming, GNU/Linux, and open-source contributions & culture. I focus on leveraging the internet for self-learning and keep gaining new skills. I am also interested in writing technical tutorials, blog posts, and documentation.
+                                <hr style="height:1px;background-color:#000;">
+                            </em>
+                        </p>
+                    </div>
+                </div>
+                <br>
+
+                <h1>My Bagpack</h1>
+                <div class="row">
+                <div class="text-center">
+                    <br>
+                    <ul class="list-inline">
+
+                        <!-- Python -->
+                        <li class="col-lg-2">
+                            <span><img class="skills_svg" src="./static/svg/python.svg"></span>
+                        </li>
+
+                        <!-- Django -->
+                        <li class="col-lg-2">
+                            <span><img class="skills_svg" src="./static/svg/django.svg"></span>
+                        </li>
+
+                        <!-- Flask -->
+                        <li class="col-lg-2">
+                            <span><img class="skills_svg" src="./static/svg/flask.svg"></span>
+                        </li>
+
+                        <!-- Bash/Shell -->
+                        <li class="col-lg-2">
+                            <span><img class="skills_svg" src="./static/svg/bash.svg"></span>
+                        </li>
+
+                        <!-- HTML -->
+                        <li class="col-lg-2">
+                            <span><img class="skills_svg" src="./static/svg/html.svg"></span>
+                        </li>
+
+                        <!-- MySQL -->
+                        <li class="col-lg-2">
+                            <span><img class="skills_svg" src="./static/svg/mysql.svg"></span>
+                        </li>
+
+                        <!-- Linux -->
+                        <li class="col-lg-2">
+                            <span><img class="skills_svg" src="./static/svg/linux.svg"></span>
+                        </li>
+
+                        <!-- Git -->
+                        <li class="col-lg-2">
+                            <span><img class="skills_svg" src="./static/svg/git.svg"></span>
+                        </li>
+
+                        <!-- GitHub -->
+                        <li class="col-lg-2">
+                            <span><img class="skills_svg" src="./static/svg/github.svg"></span>
+                        </li>
+
+                        <!-- Docker -->
+                        <li class="col-lg-2">
+                            <span><img class="skills_svg" src="./static/svg/docker.svg"></span>
+                        </li>
+
+                        <!-- Heroku -->
+                        <li class="col-lg-2">
+                            <span><img class="skills_svg" src="./static/svg/heroku.svg"></span>
+                        </li>
+
+                        <!-- Travis-CI -->
+                        <li class="col-lg-2">
+                            <span><img class="skills_svg" src="./static/svg/travis.svg"></span>
+                        </li>
+
+                        <!-- Add More Skills Here -->
+
+                    </ul>
+                </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-lg-12 bg-light">
+                    <h1>Latest Projects</h1>
+                        <br>
+                        <div class="col-lg-6 text-center card">
+                            <img src="./static/img/project-card.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">NickoScope</h4>
+                                <p class="card-text">
+                                    A flask app to find out usernames availability on popular websites. The deployed application is available at: <a href="https://nickoscope.herokuapp.com/">NickoScope.Herokuapp.com</a>
+                                </p>
+                                <a href="https://github.com/geekyshacklebolt/nickoscope" class="btn btn-primary">Show Code</a>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="col-lg-6 text-center card">
+                            <img src="./static/img/project-card.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Pepper</h4>
+                                <p class="card-text">
+                                    An API created with Django REST Framework to fetch profiles of Facebook users using their PSID and associating messenger labels to them.
+                                </p>
+                                <a href="https://github.com/geekyshacklebolt/nickoscope" class="btn btn-primary">Show Code</a>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Top Tutorials</h1>
+                        <br>
+                        <a href="https://www.thegeekyway.com/hands-on-guide-on-gpg-keys">
+                            <h4> Hands on Guide: GPG Keys - Post by GeekyShacklebolt </h4>
+                        </a>
+                        GPG or GNU Privacy Guard is a complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP). It is a tool that ...
+                        <p></p>
+                        <a href="https://www.thegeekyway.com/what-are-dotfiles">
+                            <h4> What are Dotfiles? - Post by GeekyShacklebolt </h4>
+                        </a>
+                        What happens when your hard disk fries, or eventually you want to get a new machine? You tend up to loose all your dev configuration after years ...
+                        <p></p>
+
+                        <a href="https://www.thegeekyway.com/ultimate-guide-how-ssh-works">
+                            <h4> Ultimate Guide: How SSH Works? - Post by GeekyShacklebolt </h4>
+                        </a>
+                        SSH is quite an interesting protocol in itself. A lot of people are using it for a secure communication between two machines. This blog post hits ...
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                    <h1>Geeky Galary<h1>
+
+                        <div id="momentCarousel" class="carousel col-lg-12 text-center slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#momentCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#momentCarousel" data-slide-to="1"></li>
+                            <li data-target="#momentCarousel" data-slide-to="2"></li>
+                            <li data-target="#momentCarousel" data-slide-to="2"></li>
+                            <li data-target="#momentCarousel" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <div class="carouselImage d-block w-100" style="background-image: url('./static/img/carousel/a.jpg')"></div>
+                            </div>
+                            <div class="item">
+                              <div class="carouselImage d-block w-100" style="background-image: url('./static/img/carousel/b.jpg')"></div>
+                            </div>
+                            <div class="item">
+                              <div class="carouselImage d-block w-100" style="background-image: url('./static/img/carousel/c.jpg')"></div>
+                            </div>
+                            <div class="item">
+                              <div class="carouselImage d-block w-100" style="background-image: url('./static/img/carousel/d.jpg')"></div>
+                            </div>
+                            <div class="item">
+                              <div class="carouselImage d-block w-100" style="background-image: url('./static/img/carousel/e.jpg')"></div>
+                            </div>
+                          </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <button onclick="scrollToTop()" class="scroll_button">
+                            <small>Back to Top</small> 
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 
-    <footer id="sticky-footer" class="py-4">
-        <div class="container text-center">
-            <small>Developed by
-                <a href="https://github.com/geekyshacklebolt">Shiva Saxena</a>
-                   &diams; Powered by
-                <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4</a>
-                   &diams; Hosted on
-                <a href="https://pages.github.com/">GitHub Pages</a>
-            </small>
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+
+                        <li>
+                            <a href="https://github.com/geekyshacklebolt">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://linkedin.com/in/shiva-saxena">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://instagram.com/geekyshacklebolt">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://twitter.com/ershivasaxena">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://geekyshacklebolt.wordpress.com">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-wordpress fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="http://www.thegeekyway.com/author/geekyshacklebolt">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="mailto:shivasaxena911@gmail.com">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <p class="copyright text-muted">
+                        <hd style="color: black">Thanks a million!</hd><br>
+                        Powered by <a href="https://getbootstrap.com">Bootstrap 4</a>
+                        <br>
+                        Design based on <a href="https://github.com/gilsondev/pelican-clean-blog">Pelican Clean Blog</a>
+                        <br>
+                        Hosted on <a href="https://pages.github.com/">GitHub Pages</a>
+                        <br>
+                        Technology Icons by <a href="https://www.vectorlogo.zone/">VectorLogo.Zone</a>
+                        <br>
+                        Background Pictures from <a href="https://pixabay.com">Pixabay</a>
+                        <br>
+                        <br>
+                        <hd style="color: black">Terms and Conditions</hd><br>
+                        &copy; Shiva Saxena 
+                        (<a href="https://github.com/geekyshacklebolt/geekyshacklebolt.github.io/blob/master/LICENSE">MIT License</a>)
+                    </p>
+
+                </div>
+            </div>
         </div>
     </footer>
 
+    <!-- jQuery -->
+    <script src="./static/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./static/js/bootstrap.min.js"></script>
+
+    <!-- Custom static JavaScript -->
+    <script src="./static/js/clean-blog.min.js"></script>
+
+    <script>
+        function scrollToTop()
+        {
+            $([document.documentElement, document.body]).animate({
+                scrollTop: 0
+            }, 1000);
+        }
+    </script>
+
 </body>
 
-
 </html>
+
