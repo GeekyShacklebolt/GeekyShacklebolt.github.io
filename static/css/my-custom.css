@@ -1,0 +1,83 @@
+.profile_pic {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 25vw;
+    display: inline-block;
+    border-radius: 40%;
+    box-shadow: 0 27px 24px 0 rgba(0,0,0,0.2),0 40px 77px 0 rgba(0,0,0,0.22);
+}
+
+.skills_svg {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.carouselImage {
+    width:100%;
+    align: center;
+    height:400px;
+    max-height: 70vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.scroll_button {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius:8px;
+    /* display:inline-block; */
+    cursor:pointer;
+    color:#ffffff;
+    font-weight:bold;
+    padding:10px 10px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+}
+
+.scroll_button:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color:#408c99;
+}
+
+.scroll_button:active {
+    position:relative;
+    top:1px;
+}
+
+#overview hr {
+    margin-top: 0px;
+}
+
+#overview p {
+    margin: 0 0;
+}
+
+#timeline {
+    border-left: 5px solid black;
+    margin-left: 30px;
+}
+
+#timeline hr {
+    margin: 0px;
+}
+
+.timeline-card {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.timeline-card h3 {
+    margin: 0;
+}
+
+.timeline-card small {
+    margin-left: -42px;
+}
+
+.timeline-card span {
+    margin-right: 12px;
+}
+
