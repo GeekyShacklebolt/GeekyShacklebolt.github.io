@@ -18,7 +18,7 @@
     width:100%;
     align: center;
     height:400px;
-    max-height: 70vw;
+    max-height: 50vw;
     background-position: center;
     background-size: cover;
 }
@@ -81,3 +81,47 @@
     margin-right: 12px;
 }
 
+.index-header {
+    background-image: url('../img/home-bg.jpg');
+}
+
+.about-header {
+    background-image: url('../img/about-bg.jpg');
+}
+
+.work-header {
+    background-image: url('../img/work-bg.jpg');
+}
+
+.contact-header {
+    background-image: url('../img/contact-bg.jpg');
+}
+
+.intro-hr {
+    height:1px;
+    background-color:#000;
+}
+
+.carouselImage1 {
+     background-image: url('../img/carousel/collage1.jpg');
+}
+
+.carouselImage2 {
+     background-image: url('../img/carousel/pyconindia1.jpg');
+}
+
+.carouselImage3 {
+     background-image: url('../img/carousel/pyconindia2.jpg');
+}
+
+.carouselImage4 {
+     background-image: url('../img/carousel/collage2.jpg');
+}
+
+.carouselImage5 {
+     background-image: url('../img/carousel/mozillaniec.jpg');
+}
+
+hd {
+    color: black;
+}
