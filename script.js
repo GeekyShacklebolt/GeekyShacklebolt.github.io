@@ -1,9 +1,5 @@
 // Small, dependency-free. Section reveal, active nav, gentle parallax on the portrait.
 (function () {
-  // Photo grade picker for iteration: ?grade=warm, bw, sepia or clean
-  var g = new URLSearchParams(location.search).get("grade");
-  if (g) document.documentElement.setAttribute("data-grade", g);
-
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   // Reveal blocks as they enter the viewport.
