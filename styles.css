@@ -423,10 +423,7 @@ h2 {
   margin-left: 12px;
   background-size: 100% 1px;
 }
-.verify::before {
-  content: "✓ ";
-  color: var(--accent);
-}
+.verify:hover { color: var(--accent); }
 
 /* Toolbox */
 
